@@ -5,6 +5,7 @@ import { decrementValue, incrementValue } from './features/countSlicer';
 function App() {
   const count = useSelector((state) => state.counter.value);
   const dispatch = useDispatch();
+  console.log("sjdhfkjds")
   return (
     <div>
       <button onClick={() => dispatch(incrementValue())}>Increment</button>
